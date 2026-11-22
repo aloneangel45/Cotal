@@ -1,5 +1,14 @@
 # @cotal-ai/cli
 
+## 0.174.1
+
+### Patch Changes
+
+- 98e726c: Move the status command's flag grammar, result types and gap collector out of `status.ts` into an internal `status-model.ts`. `status.ts` re-exports every name it exported before, so the module surface is unchanged.
+- 2e9777f: Move the up command's broker transport, TLS and store-selection checks out of `up.ts` into an internal `up-transport.ts`. The module surface of `up.ts` is unchanged.
+- @cotal-ai/core@0.174.1
+  - @cotal-ai/workspace@0.174.1
+
 ## 0.174.0
 
 ### Patch Changes
